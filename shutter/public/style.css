@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none; /* Initially hidden */
+}
+
+#popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+#greet {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#bday-pic {
+    width: 150px; /* Fixed width for the birthday picture */
+    height: 150px; /* Fixed height for the birthday picture */
+    border-radius: 50%; /* Circular shape */
+    object-fit: cover; /* Cover the container without stretching */
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+}
